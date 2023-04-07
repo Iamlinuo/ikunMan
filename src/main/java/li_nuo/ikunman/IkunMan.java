@@ -20,6 +20,8 @@ public final class IkunMan extends JavaPlugin implements Listener {
         //功能插件
         this.getServer().getPluginManager().registerEvents(new playerAttackChicken(), this);
 
+        this.getServer().getPluginManager().registerEvents(new playerJoinService(),this);
+
     }
 
     @Override
