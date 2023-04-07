@@ -2,7 +2,8 @@ package li_nuo.ikunman;
 
 import li_nuo.ikunman.PlayerAttackAnimal.playerAttackChicken;
 import li_nuo.ikunman.PlayerJoinService.playerJoinService;
-import org.bukkit.entity.Player;
+import li_nuo.ikunman.PlayerLeaveService.playerLeaveService;
+import li_nuo.ikunman.PlayerMove.playerMove;
 import org.bukkit.event.Listener;
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -21,6 +22,8 @@ public final class IkunMan extends JavaPlugin implements Listener {
         this.getServer().getPluginManager().registerEvents(new playerAttackChicken(), this);
 
         this.getServer().getPluginManager().registerEvents(new playerJoinService(),this);
+
+        this.getServer().getPluginManager().registerEvents(new playerLeaveService(),this);
 
     }
 
