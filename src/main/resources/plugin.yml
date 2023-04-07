@@ -1,0 +1,5 @@
+name: IkunMan
+version: '${project.version}'
+main: li_nuo.ikunman.IkunMan
+api-version: 1.16
+authors: [li_nuo]
