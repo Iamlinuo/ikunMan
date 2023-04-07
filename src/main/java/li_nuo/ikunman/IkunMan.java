@@ -1,5 +1,7 @@
 package li_nuo.ikunman;
 
+//Author:steam-404
+
 import li_nuo.ikunman.PlayerAttackAnimal.playerAttackChicken;
 import li_nuo.ikunman.PlayerJoinService.playerJoinService;
 import li_nuo.ikunman.PlayerLeaveService.playerLeaveService;
